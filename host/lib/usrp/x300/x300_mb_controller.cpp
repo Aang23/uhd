@@ -17,7 +17,7 @@ uhd::uart_iface::sptr x300_make_uart_iface(uhd::wb_iface::sptr iface);
 using namespace uhd;
 using namespace uhd::rfnoc;
 using namespace uhd::usrp::x300;
-using namespace std::chrono_literals;
+using namespace std::literals::chrono_literals;
 
 namespace {
 constexpr uint32_t DONT_LOOK_FOR_GPSDO = 0x1234abcdul;

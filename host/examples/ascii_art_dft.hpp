@@ -327,7 +327,7 @@ std::string dft_to_plot(const log_pwr_dft_type& dft_,
 #include <thread>
 
 int main(void){
-    using namespace std::chrono_literals;
+    using namespace std::literals::chrono_literals;
 
     initscr();
 

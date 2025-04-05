@@ -12,7 +12,7 @@
 
 using namespace uhd::rfnoc;
 using namespace uhd::rfnoc::detail;
-using namespace std::chrono_literals;
+using namespace std::literals::chrono_literals;
 
 namespace {
 constexpr std::chrono::milliseconds DEFAULT_POLL_TIMEOUT = 1000ms;

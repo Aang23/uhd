@@ -14,7 +14,7 @@
 #include <thread>
 
 using namespace uhd;
-using namespace std::chrono_literals;
+using namespace std::literals::chrono_literals;
 
 namespace {
 

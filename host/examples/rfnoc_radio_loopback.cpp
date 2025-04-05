@@ -25,7 +25,7 @@
 
 namespace po = boost::program_options;
 using uhd::rfnoc::radio_control;
-using namespace std::chrono_literals;
+using namespace std::literals::chrono_literals;
 
 /****************************************************************************
  * SIGINT handling

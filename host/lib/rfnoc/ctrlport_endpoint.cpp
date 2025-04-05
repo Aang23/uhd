@@ -21,7 +21,7 @@ using namespace uhd::rfnoc;
 using namespace uhd::rfnoc::chdr;
 
 using namespace std::chrono;
-using namespace std::chrono_literals;
+using namespace std::literals::chrono_literals;
 
 namespace {
 //! Max async msg (CTRL_WRITE) size in 32-bit words (2 hdr, 2 TS, 1 op-word, 1 data)

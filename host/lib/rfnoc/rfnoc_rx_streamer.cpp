@@ -11,7 +11,7 @@
 #include <atomic>
 #include <thread>
 
-using namespace std::chrono_literals;
+using namespace std::literals::chrono_literals;
 ;
 using namespace uhd;
 using namespace uhd::rfnoc;

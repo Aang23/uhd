@@ -26,7 +26,7 @@
 #include <regex>
 #include <thread>
 
-using namespace std::chrono_literals;
+using namespace std::literals::chrono_literals;
 
 namespace po = boost::program_options;
 
