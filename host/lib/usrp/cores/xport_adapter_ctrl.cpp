@@ -128,7 +128,7 @@ void xport_adapter_ctrl::add_remote_ep_route(const uhd::rfnoc::sep_inst_t epid,
     const uint32_t cfg_word        = epid | (stream_mode_int << 16);
 
     // Check TA is ready by polling BUSY flag
-    using namespace std::literals::chrono_literals;
+    using namespace std::chrono_literals;
     const auto timeout = std::chrono::steady_clock::now() + 500ms;
     while (bool(_peek32(KV_CFG) & (1 << 31))) {
         if (std::chrono::steady_clock::now() > timeout) {

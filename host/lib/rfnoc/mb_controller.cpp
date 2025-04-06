@@ -16,7 +16,7 @@
 #include <tuple>
 
 using namespace uhd::rfnoc;
-using namespace std::literals::chrono_literals;
+using namespace std::chrono_literals;
 
 namespace {
 const std::vector<std::string> SYNCHRONIZABLE_REF_SOURCES = {"gpsdo", "external"};

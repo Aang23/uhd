@@ -31,7 +31,7 @@ namespace po = boost::program_options;
 
 using std::cout;
 using std::endl;
-using namespace std::literals::chrono_literals;
+using namespace std::chrono_literals;
 
 ///////////////////////////////////////////////////////////////////////////////
 

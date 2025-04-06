@@ -20,7 +20,7 @@
 
 using namespace uhd;
 using namespace uhd::mpmd;
-using namespace std::literals::chrono_literals;
+using namespace std::chrono_literals;
 namespace py = pybind11;
 
 constexpr auto SIMULATOR_EXIT_TIMEOUT    = 5s;

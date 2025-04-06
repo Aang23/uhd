@@ -35,7 +35,7 @@
 #include <thread>
 #include <vector>
 
-using namespace std::literals::chrono_literals;
+using namespace std::chrono_literals;
 using namespace uhd;
 using namespace uhd::usrp;
 using namespace uhd::rfnoc;

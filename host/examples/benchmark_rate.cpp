@@ -21,7 +21,7 @@
 #include <thread>
 
 namespace po = boost::program_options;
-using namespace std::literals::chrono_literals;
+using namespace std::chrono_literals;
 
 namespace {
 constexpr auto CLOCK_TIMEOUT = 1000ms; // 1000mS timeout for external clock locking

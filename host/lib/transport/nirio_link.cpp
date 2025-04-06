@@ -16,7 +16,7 @@
 #include "../usrp/x300/x300_regs.hpp"
 
 using namespace uhd::transport;
-using namespace std::literals::chrono_literals;
+using namespace std::chrono_literals;
 using namespace uhd::niusrprio;
 
 /******************************************************************************
